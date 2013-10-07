@@ -1,0 +1,41 @@
+<template name="jumboheading">
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Top 10</h1>
+			<p>(data from hasoffers.com)</p>
+			<p><input type="button" class="clk btn btn-primary" value="Clicks"></p>
+			<p><input type="button" class="cnv btn btn-primary" value="Conversions"></p>
+			<p><input type="button" class="pyt btn btn-primary" value="Payout"></p>
+		</div>
+	</div>
+</template>
+
+<template name="offerlist">
+	<table class="table table-hover table-condensed">
+		<thead>
+			<th class="text-center">Game</th>
+			<th class="text-center">Clicks</th>
+			<th class="text-center">Conversions</th>
+			<th class="text-center" colspan="2">Payout</th>
+		</thead>
+		<tbody>
+			{{> info}}
+		</tbody>
+	</table> 
+</template>
+
+<template name="info">
+	{{#each list}}
+	<tr class="info {{selected}}">
+		<td class="text-left">{{name}}</td>
+		<td class="text-left">{{clicks}}</td>
+		<td class="text-left">{{conversions}}</td>
+		<td class="text-right">{{payout}}</td>
+		<td class="text-left">{{currency}}</td>
+	</tr>
+	{{/each}}
+</template>
+
+<template name="stickyfooter">
+
+</template>

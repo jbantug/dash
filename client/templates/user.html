@@ -1,0 +1,42 @@
+<template name="signin_form">
+	<!-- <form class="navbar-form navbar-right" id="signin_1">
+		<div class="form-group">
+			<input type="text" placeholder="Email" name="email" id="email1" class="form-control">
+		</div>
+		<div class="form-group">
+			<input type="password" placeholder="Password" name="pass" id="pass1" class="form-control">
+		</div>
+		<input type="button" class="btn btn-success signin_submit" value="Sign in">
+	</form> -->
+	<form class="form-signin" id="signin_1">
+		<h2 class="form-signin-heading">Sign-in to any.TV!</h2>
+		<input type="text" class="form-control" placeholder="Email address" name="email" id="email1" autofocus="">
+		<input type="password" class="form-control" placeholder="Password" name="pass" id="pass1">
+		<!-- <label class="checkbox">
+			<input type="checkbox" value="remember-me"> Remember me
+		</label> -->
+		<input type="button" class="btn btn-lg btn-primary btn-block signin_submit" value="Sign in">
+	</form>
+</template>
+
+<template name="user_options">
+	<ul class="nav navbar-nav navbar-right">
+		{{#if check_user}}
+		<p class="navbar-text">Welcome, {{current_user}}!</p>
+		<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-list"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#">Action</a></li>
+				<li><a href="#">Another action</a></li>
+				<li><a href="#">Something else here</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Account Options</li>
+				<li><a href="#" class="user_edit">Edit Account</a></li>
+				<li><a href="#" class="user_logout">Logout</a></li>
+			</ul>
+		</li>
+		{{else}}
+		<li class="nav-li" id="signin-container"><a href="#signin">Sign-in</a></li>
+		{{/if}}
+	</ul>
+</template>

@@ -1,0 +1,151 @@
+{"request":
+	{"Target":"Application",
+	"Format":"json",
+	"Service":"HasOffers",
+	"Version":"2",
+	"Method":"findAllOfferCategories",
+	"NetworkId":"mmotm",
+	"NetworkToken":"NETjE4MoLg7NarETCDruHecVmgLHbN",
+	"networkname":"any.TV",
+	"networkurl":"www.dashboard.tm",
+	"networkid":"mmotm",
+	"edition":"enterprise",
+	"__utma":"267117079.1232907828.1367218314.1367218314.1367218682.2",
+	"__utmc":"267117079",
+	"__utmz":"267117079.1367218682.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not provided)",
+	"mp_6260cffacfd3243a953737aae1d36b71_mixpanel":
+		"{\"distinct_id\": \"13e5495aaa486-0325ce7b5f50df8-782d6755-100200-13e5495aaa52c\",
+		\"$search_engine\": \"google\",
+		\"$initial_referrer\": \"http:\/\/www.google.com\/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CDoQFjAB&url=http%3A%2F%2Fwww.hasoffers.com%2Ftraining%2F&ei=pRl-UaClLNDjrAeS5oD4CA&usg=AFQjCNFNTjwPfnrIXvPKR6FiC_Q68ENARg&sig2=G52bKHyGQQU4hd26zn5wfA&bvm=bv.45645796,d.bmk\",
+		\"$initial_referring_domain\": \"www.google.com\"}",
+		"is_returning":"1"},
+	"response":{
+		"status":1,
+		"httpStatus":200,
+		"data":{
+			"2":{"OfferCategory":
+					{"id":"2","name":"$100.00","status":"deleted","date_created":"2013-03-15 02:33:52","date_updated":"2013-04-16 12:09:40","offer_count":0}
+				},
+			"4":{"OfferCategory":
+					{"id":"4","name":"$50.00","status":"deleted","date_created":"2013-03-15 02:43:10","date_updated":"2013-04-16 12:09:43","offer_count":0}
+				},
+			"6":{"OfferCategory":
+					{"id":"6","name":"$20.00","status":"deleted","date_created":"2013-03-15 15:14:05","date_updated":"2013-04-16 12:09:46","offer_count":0}
+				},
+			"8":{"OfferCategory":
+					{"id":"8","name":"$10.00","status":"deleted","date_created":"2013-03-15 15:15:37","date_updated":"2013-04-16 12:09:49","offer_count":0}
+				},
+			"10":{"OfferCategory":
+					{"id":"10","name":"$5.00","status":"deleted","date_created":"2013-03-15 15:16:33","date_updated":"2013-04-16 12:09:51","offer_count":0}
+				},
+			"12":{"OfferCategory":
+					{"id":"12","name":"$1.00+","status":"active","date_created":"2013-03-15 15:27:32","date_updated":"2013-04-24 07:12:45","offer_count":"38"}
+				},
+			"14":{"OfferCategory":
+					{"id":"14","name":"$1.00","status":"deleted","date_created":"2013-03-15 15:31:32","date_updated":"2013-04-21 05:42:06","offer_count":0}
+				},
+			"16":{"OfferCategory":
+					{"id":"16","name":"$0.60","status":"active","date_created":"2013-03-15 15:32:31","date_updated":"2013-04-16 07:19:11","offer_count":"153"}
+				},
+			"18":{"OfferCategory":
+					{"id":"18","name":"$0.40-","status":"active","date_created":"2013-03-16 06:28:49","date_updated":"2013-04-24 07:12:57","offer_count":"193"}
+				},
+			"20":{"OfferCategory":
+					{"id":"20","name":"$0.25","status":"deleted","date_created":"2013-03-28 15:21:45","date_updated":"2013-04-17 03:27:28","offer_count":0}
+				},
+			"22":{"OfferCategory":
+					{"id":"22","name":"$0.10","status":"deleted","date_created":"2013-04-12 12:43:01","date_updated":"2013-04-17 03:27:30","offer_count":0}
+				},
+			"24":{"OfferCategory":
+					{"id":"24","name":"$0.05","status":"deleted","date_created":"2013-04-15 09:35:22","date_updated":"2013-04-17 03:27:32","offer_count":0}
+				},
+			"26":{"OfferCategory":
+					{"id":"26","name":"$0.01","status":"deleted","date_created":"2013-04-15 16:10:17","date_updated":"2013-04-17 03:27:35","offer_count":0}
+				},
+			"28":{"OfferCategory":
+					{"id":"28","name":"Apparel","status":"deleted","date_created":"2013-04-15 16:24:27","date_updated":"2013-04-17 03:27:38","offer_count":0}
+				},
+			"30":{"OfferCategory":
+					{"id":"30","name":"Beauty","status":"deleted","date_created":"2013-04-15 16:25:17","date_updated":"2013-04-17 03:27:40","offer_count":0}
+				},
+			"32":{"OfferCategory":
+					{"id":"32","name":"Education","status":"deleted","date_created":"2013-04-15 16:25:34","date_updated":"2013-04-17 03:27:43","offer_count":0}
+				},
+			"34":{"OfferCategory":
+					{"id":"34","name":"Fitness","status":"deleted","date_created":"2013-04-15 16:26:36","date_updated":"2013-04-17 03:27:46","offer_count":0}
+				},
+			"36":{"OfferCategory":
+					{"id":"36","name":"game","status":"active","date_created":"2013-04-15 16:26:46","date_updated":"2013-04-24 10:09:52","offer_count":"36"}
+				},
+			"38":{"OfferCategory":
+					{"id":"38","name":"Future Category 2","status":"deleted","date_created":"2013-04-15 16:46:03","date_updated":"2013-04-17 21:38:28","offer_count":0}
+				},
+			"40":{"OfferCategory":
+					{"id":"40","name":"Future Category 3","status":"deleted","date_created":"2013-04-16 03:39:21","date_updated":"2013-04-17 21:38:26","offer_count":0}
+				},
+			"42":{"OfferCategory":
+					{"id":"42","name":"Future Category 4","status":"deleted","date_created":"2013-04-16 11:35:31","date_updated":"2013-04-17 21:38:24","offer_count":0}
+				},
+			"44":{"OfferCategory":
+					{"id":"44","name":"Future Category 5","status":"deleted","date_created":"2013-04-16 11:35:43","date_updated":"2013-04-17 21:38:23","offer_count":0}
+				},
+			"46":{"OfferCategory":
+					{"id":"46","name":"Future Category 6","status":"deleted","date_created":"2013-04-16 11:35:57","date_updated":"2013-04-17 21:38:21","offer_count":0}
+				},
+			"48":{"OfferCategory":
+					{"id":"48","name":"Future Category 7","status":"deleted","date_created":"2013-04-16 11:36:09","date_updated":"2013-04-17 21:38:20","offer_count":0}
+				},
+			"50":{"OfferCategory":
+					{"id":"50","name":"Future Category 8","status":"deleted","date_created":"2013-04-16 11:36:26","date_updated":"2013-04-17 21:38:19","offer_count":0}
+				},
+			"52":{"OfferCategory":
+					{"id":"52","name":"Future Category 9","status":"deleted","date_created":"2013-04-16 11:37:05","date_updated":"2013-04-17 21:38:17","offer_count":0}
+				},
+			"54":{"OfferCategory":
+					{"id":"54","name":"Future Category 10","status":"deleted","date_created":"2013-04-16 11:37:26","date_updated":"2013-04-17 21:38:15","offer_count":0}
+				},
+			"56":{"OfferCategory":
+					{"id":"56","name":"Future Category 11","status":"deleted","date_created":"2013-04-16 11:37:37","date_updated":"2013-04-17 21:38:13","offer_count":0}
+				},
+			"58":{"OfferCategory":
+					{"id":"58","name":"Future Category 12","status":"deleted","date_created":"2013-04-16 11:37:46","date_updated":"2013-04-17 21:38:11","offer_count":0}
+				},
+			"60":{"OfferCategory":
+					{"id":"60","name":"Future Category 13","status":"deleted","date_created":"2013-04-16 11:37:58","date_updated":"2013-04-17 21:38:09","offer_count":0}
+				},
+			"62":{"OfferCategory":
+					{"id":"62","name":"Future Category 14","status":"deleted","date_created":"2013-04-16 11:38:13","date_updated":"2013-04-17 21:38:07","offer_count":0}
+				},
+			"64":{"OfferCategory":
+					{"id":"64","name":"Future Category 15","status":"deleted","date_created":"2013-04-16 11:38:22","date_updated":"2013-04-17 21:38:03","offer_count":0}
+				},
+			"66":{"OfferCategory":
+					{"id":"66","name":"Future Category 16","status":"deleted","date_created":"2013-04-16 11:38:31","date_updated":"2013-04-17 21:38:01","offer_count":0}
+				},
+			"68":{"OfferCategory":
+					{"id":"68","name":"AE (United Arab Emirates)","status":"active","date_created":"2013-04-16 11:43:49","date_updated":"2013-04-23 10:01:10","offer_count":"3"}
+				},
+			"70":{"OfferCategory":
+					{"id":"70","name":"AG (Antigua and Barbuda)","status":"active","date_created":"2013-04-16 11:44:29","date_updated":"2013-04-23 10:01:13","offer_count":"1"}
+				},
+			"72":{"OfferCategory":
+					{"id":"72","name":"AT (Austria)","status":"active","date_created":"2013-04-16 11:44:54","date_updated":"0000-00-00 00:00:00","offer_count":"15"}
+				},
+			"74":{"OfferCategory":
+					{"id":"74","name":"AU (Australia)","status":"active","date_created":"2013-04-16 11:45:23","date_updated":"0000-00-00 00:00:00","offer_count":"13"}
+				},
+			"76":{"OfferCategory":
+					{"id":"76","name":"BE (Belgium)","status":"active","date_created":"2013-04-16 11:45:39","date_updated":"0000-00-00 00:00:00","offer_count":"9"}
+				},
+			"78":{"OfferCategory":
+					{"id":"78","name":"BG (Bulgaria)","status":"active","date_created":"2013-04-16 11:46:30","date_updated":"0000-00-00 00:00:00","offer_count":"1"}
+				},
+			"80":{"OfferCategory":
+					{"id":"80","name":"BH (Bahrain)","status":"active","date_created":"2013-04-16 11:46:54","date_updated":"2013-04-23 10:01:15","offer_count":"3"}
+				},
+			"82":{"OfferCategory":
+					{"id":"82","name":"BM (Bermuda)","status":"active","date_created":"2013-04-16 11:47:16","date_updated":"2013-04-23 10:01:18","offer_count":"1"}
+				}
+		}
+	}
+}
