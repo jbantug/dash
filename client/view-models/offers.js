@@ -1,3 +1,7 @@
 Template.info.list = function(){
-	return games.find({},{sort:{name:1}});
+	return Games.find({},{sort:{name:1}});
+}
+
+Template.ytinfo.list = function(){
+	return Videos.find({},{sort:{name:1}});
 }
