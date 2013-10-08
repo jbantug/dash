@@ -1,5 +1,5 @@
 Meteor.methods({
 	refresh: function () {
-		Games.remove({});    
+		games.remove({});    
 	}
 });
